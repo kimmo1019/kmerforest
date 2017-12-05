@@ -1,5 +1,6 @@
 # Kmerforest
 Kmerforest is a sequence-based method to predict the impact of regulatory variants using random forest.
+It can calculate the feature importance based on mean decrease accuracy (MDA).
 
 # Usage
 This software has been tested in a Linux/MacOs system.
