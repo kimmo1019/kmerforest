@@ -5,7 +5,7 @@ Kmerforest is a sequence-based method to predict the impact of regulatory varian
 This software has been tested in a Linux/MacOs system.
 Note that input data should be in [libsvm format](https://www.csie.ntu.edu.tw/~cjlin/libsvm/).
 
-Data training:
+Training:
 
             festlearn [options] data model
             Available options:
@@ -20,14 +20,14 @@ Data training:
                             (ratio of features considered over sqrt(features))
                 -t <int>  : number of trees (default: 100)
 
-Data test:
+Test:
 
             festclassify [options] data model predictions
             Available options:
                  -t <int>  : number of trees to use (default: 0 = all)
 
 # Citation
-Liu Q, Gan M, Jiang R. A sequence-based method to predict the impact of regulatory variants using random forest[J]. BMC systems biology, 2017, 11(2): 7.
+**Liu Q**, Gan M, Jiang R. A sequence-based method to predict the impact of regulatory variants using random forest[J]. *BMC systems biology*, 2017, 11(2): 7.
 
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details
