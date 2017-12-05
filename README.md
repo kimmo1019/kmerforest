@@ -6,6 +6,7 @@ Kmerforest is a sequence-based method to predict the impact of regulatory varian
 Note that input data should be in [libsvm format](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
 
 festlearn is called this way:
+
             festlearn [options] data model
             Available options:
                 -c <int>  : committee type:
@@ -25,4 +26,6 @@ festclassify is called this way:
             Available options:
                  -t <int>  : number of trees to use (default: 0 = all)
 
+# Citation
 
+Liu Q, Gan M, Jiang R. A sequence-based method to predict the impact of regulatory variants using random forest[J]. BMC systems biology, 2017, 11(2): 7.
