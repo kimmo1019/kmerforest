@@ -1,4 +1,10 @@
-Note that data should be libsvm format
+# Kmerforest
+Kmerforest is a sequence-based method to predict the impact of regulatory variants using random forest
+
+# Usage
+
+Note that input data should be in [libsvm format](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
+
 festlearn is called this way:
             festlearn [options] data model
             Available options:
